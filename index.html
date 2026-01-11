@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Raihan Ramadhan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="logo">Raihan Ramadhan</div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#mechatronics">Mechatronics</a>
+        <a href="#software">Software</a>
+        <a href="#experiences">Experiences</a>
+        <a href="#contact">Contact</a>
+        <a href="#cv" class="btn">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO / HOME -->
+  <section id="home" class="section hero">
+  <div class="hero-container">
+    <img
+            src="assets/images/profile.jpg"
+            alt="Muhamad Raihan Ramadhan"
+            class="hero-image">
+    <div class="hero-content">
+      <h1 class="hero-name">Muhamad Raihan Ramadhan</h1>
+      <h2 class="hero-title">Mechatronics & Artificial Intelligence,<br>UPI Purwakarta</h2>
+      <p class="hero-desc">
+        Mechatronics and Artificial Intelligence student specializing in IoT and embedded systems. Hands-on
+        experience developing ESP32-based automation systems, including a full Egg Incubator Control System with real-time
+        sensor monitoring, web dashboard integration, and actuator control for poultry farmers. Skilled in sensor, actuator
+        integration, HTTP/MQTT communication, and hardware & software co-design. Additional exposure to industrial control
+        using Omron PLC (CX-Programmer) with pneumatic and hydraulic trainer systems, and experience in leading technical
+        projects such as the UPI Purwakarta Virtual Campus Tour.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+  <!-- HEADER -->
+  <div class="about-header container">
+    <h1 class="about-title">Tentang Saya</h1>
+    <p class="about-lead">
+      Saya adalah mahasiswa Mekatronika yang tertarik pada bagaimana sistem
+      mekanik, elektronik, dan software dapat bekerja sebagai satu kesatuan
+      untuk membentuk sistem fisik yang cerdas dan adaptif.
+    </p>
+  </div>
+
+  <!-- WHY MECHATRONICS -->
+  <div class="about-block container grid-2">
+    <div>
+      <div class="block-title">
+        <h2>Mengapa Mekatronika?</h2>
+      </div>
+
+      <p class="about-lead">
+        Saya memilih mekatronika karena bidang ini berada di titik temu antara
+        dunia fisik dan sistem digital. Sebuah sistem tidak hanya harus
+        bergerak secara mekanis, tetapi juga harus mampu merespons kondisi
+        lingkungan, beradaptasi, dan mengambil keputusan secara logis. Ketertarikan saya berfokus pada pengembangan sistem embedded dan
+        otomasi, di mana sensor, aktuator, dan mikrokontroler saling terhubung
+        untuk menciptakan sistem yang stabil, efisien, dan dapat diandalkan.
+      </p>
+    </div>
+    </div>
+  <!-- AI POSITIONING -->
+  <div class="about-block container grid-2">
+    <div>
+    <div class="block-title">
+      <h2>Posisi Artificial Intelligence dalam Karya Saya</h2>
+    </div>
+
+    <p class="about-lead">
+        Artificial Intelligence bukanlah fokus utama saya, melainkan alat
+        pendukung untuk meningkatkan kualitas sistem yang saya bangun.
+        AI saya gunakan untuk membaca data sensor, melakukan analisis pola,
+        serta membantu sistem dalam pengambilan keputusan yang lebih adaptif. Dengan pendekatan ini,
+        AI tidak berdiri sendiri, tetapi terintegrasi
+        langsung dengan sistem fisik, sehingga solusi yang dikembangkan
+        tetap realistis, aplikatif, dan relevan dengan kebutuhan lapangan.
+    </p>
+    </div>
+      </div>
+</section>
+
+
+  <!-- MECHATRONICS PROJECT -->
+  <section id="mechatronics" class="section bg-muted">
+  <div class="container">
+    <h2 class="section-title">Mechatronics Projects</h2>
+
+    <div class="project-grid">
+
+      <!-- CARD 1 -->
+      <article class="project-card">
+  <div class="carousel" data-carousel>
+    <img src="assets/images/egg-incubator.png" class="active" />
+    <img src="assets/images/egginc.jpg" />
+    <img src="assets/images/eeginc.webp" />
+    <img src="assets/images/eggpdf.png" />
+  </div>
+
+  <div class="project-body">
+    <h3>Egg Incubator Control System</h3>
+    <p>
+      Sistem inkubator telur otomatis berbasis ESP32 untuk kontrol suhu,
+      kelembaban, dan rotasi rak.
+    </p>
+
+    <ul class="">
+      <li>ESP32</li><li>DHT22</li><li>IoT</li>
+    </ul>
+  </div>
+</article>
+
+
+      <!-- CARD 2 -->
+      <article class="project-card">
+  <div class="carousel" data-carousel>
+    <img src="assets/images/watersens.png" class="active" />
+    <img src="assets/images/watersens2.png" />
+    <img src="assets/images/waterdash.jpeg" />
+    <img src="assets/images/waterdash2.jpeg" />
+  </div>
+        <div class="project-body">
+          <h3>Water Quality Monitoring IoT</h3>
+          <p>
+            Monitoring pH, TDS, dan turbidity berbasis IoT secara real-time.
+          </p>
+
+          <ul class="">
+            <li>ESP32</li><li>Sensor pH, TDS, turbidity</li><li>Dashboard</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- CARD 3 -->
+      <article class="project-card">
+  <div class="carousel" data-carousel>
+    <img src="assets/images/dryroof.jpeg" class="active" />
+    <img src="assets/images/dryroofui.jpeg" />
+  </div>
+        <div class="project-body">
+          <h3>Automatic Drying Roof Control</h3>
+          <p>
+            Sistem atap pengering otomatis berbasis kondisi cuaca.
+          </p>
+
+          <ul class="">
+            <li>Arduino</li><li>Sensor LDR, Raindrop</li><li>Motor Servo</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- CARD 4 -->
+      <article class="project-card">
+  <div class="carousel" data-carousel>
+    <img src="assets/images/plc.png" class="active" />
+    <img src="assets/images/plc2.png" />
+    <img src="assets/images/plc3.png" />
+    <img src="assets/images/plc4.png" />
+  </div>
+        <div class="project-body">
+          <h3>PLC Industrial Control</h3>
+          <p>
+            Sistem kontrol industri menggunakan PLC dan ladder logic.
+          </p>
+
+          <ul class="">
+            <li>PLC Omron</li><li>Ladder Diagram</li><li>Industrial Practice</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- CARD 5 -->
+      <article class="project-card">
+  <div class="carousel" data-carousel>
+    <img src="assets/images/pneumatics.jpg" class="active" />
+  </div>
+        <div class="project-body">
+          <h3>Pneumatic & Hydraulic Control</h3>
+          <p>
+            Sistem kontrol pneumatik dan hidrolik untuk trainer industri.
+          </p>
+
+          <ul class="">
+            <li>Pneumatic</li><li>Hydraulic</li><li>PLC</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- CARD 6 -->
+      <article class="project-card">
+  <div class="carousel" data-carousel>
+    <img src="assets/images/lffirerobot.jpeg" class="active" />
+  </div>
+        <div class="project-body">
+          <h3>Firefighting Robot</h3>
+          <p>
+            Robot pemadam api otomatis berbasis sensor dan aktuator.
+          </p>
+
+          <ul class="">
+            <li>Robot</li><li>Sensor IR</li><li>OpenCV</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- SOFTWARE PROJECT -->
+  <section id="software" class="section">
+  <div class="container">
+    <h2 class="section-title">Software Projects</h2>
+
+    <div id="software-projects" class="grid"></div>
+  </div>
+</section>
+
+
+  <!-- EXPERIENCES -->
+   <section id="experiences" class="experiences-section">
+  <div class="container">
+
+    <header class="section-header">
+      <h2>Experiences & Certifications</h2>
+      <p>Selected activities, leadership roles, and certified programs</p>
+    </header>
+
+    <div class="experiences-grid">
+
+      <!-- PORTRAIT CARD -->
+       <!--Egg Incubator-->
+      <article class="certi-card portrait">
+        <div class="carousel" data-carousel>
+          <img src="assets/images/certificates/EggCubator.png" class="active" alt="">
+          <img src="assets/images/certificates/EggCubator2.png" alt="">
+        </div>
+
+        <div class="certi-body">
+          <h3>COPYRIGHT REGISTRATION CERTIFICATE FOR POCKET BOOK</h3>
+          <p>User Guide: Implementation of Egg Incubator Control System</p>
+        </div>
+      </article>
+      <!-- VCT -->
+      <article class="certi-card portrait">
+        <div class="carousel" data-carousel>
+          <img src="assets/images/certificates/VICATUR.png" class="active" alt="">
+          <img src="assets/images/certificates/VICATUR2.png" alt="">
+          <img src="assets/images/certificates/VICATUR3.png" alt="">
+        </div>
+
+        <div class="certi-body">
+          <h3>COMPUTER PROGRAM COPYRIGHT REGISTRATION LETTER</h3>
+          <p>Virtual Campus Tour of UPI Campus in Purwakarta Based on Lapentor</p>
+        </div>
+      </article>
+
+      <!-- LANDSCAPE CARD -->
+       <!--INNOVATING WITH AI-->
+      <article class="certi-card landscape">
+        <div class="carousel" data-carousel>
+          <img src="assets/images/certificates/Ainovation.png" class="active" alt="">
+          <img src="assets/images/certificates/Ainovation2.png" alt="">
+        </div>
+
+        <div class="certi-body">
+          <h3>INNOVATING WITH AI</h3>
+          <p>Completing the "INNOVATING WITH AI" training for 15 Learning Hours</p>
+        </div>
+      </article>
+        <!-- PTESOL -->
+      <article class="certi-card landscape">
+        <div class="carousel" data-carousel>
+          <img src="assets/images/certificates/PTESOL.png" class="active" alt="">
+        </div>
+
+        <div class="certi-body">
+          <h3>The Proficiency Test of English to Speakers of Other Languages (PTESOL)</h3>
+          <p>Passed PTESOL with a total score of 503. valid until 05/28/2027</p>
+        </div>
+      </article>
+      <!-- IBM -->
+      <article class="certi-card landscape">
+        <div class="carousel" data-carousel>
+          <img src="assets/images/certificates/py101.png" class="active" alt="">
+        </div>
+
+        <div class="certi-body">
+          <h3>Python 101 for Data Science</h3>
+          <p>Authenticity of this certificate can be validated by going to: <a href="https://courses.cognitiveclass.ai/certificates/7d166d6a238d4cb8b6823eff1e94d0ff">cognitiveclass</a></p>
+          <p>Certificate ID Number 7d166d6a238d4cb8b6823eff1e94d0ff</p>
+        </div>
+      </article>
+      <article class="certi-card landscape">
+        <div class="carousel" data-carousel>
+          <img src="assets/images/certificates/Mlpy.png" class="active" alt="">
+        </div>
+
+        <div class="certi-body">
+          <h3>Machine Learning with Python</h3>
+          <p>Authenticity of this certificate can be validated by going to: <a href="https://courses.cognitiveclass.ai/certificates/011b661acc194243885398856fba7c90">cognitiveclass</a></p>
+          <p>Certificate ID Number 011b661acc194243885398856fba7c90</p>
+        </div>
+      </article>  
+      <!-- LF UNJ -->
+      <article class="certi-card landscape">
+        <div class="carousel" data-carousel>
+          <img src="assets/images/certificates/LFUNJ.png" class="active" alt="">
+        </div>
+
+        <div class="certi-body">
+          <h3>ERIC UNJ: LINE FOLLOWER MICRO</h3>
+          <p>As a participant in the ERIC UNJ: LINE FOLLOWER MICRO competition at the university and general level</p>
+        </div>
+      </article>   
+      <!-- DPM REMA -->
+      <article class="certi-card landscape">
+        <div class="carousel" data-carousel>
+          <img src="assets/images/certificates/DPM.jpg" class="active" alt="">
+        </div>
+
+        <div class="certi-body">
+          <h3>DPM REMA UPI KAMPUS PURWAKARTA</h3>
+          <p>As a member of Commission 1, overseeing the Community Service department of BEM REMA UPI Purwakarta Campus 2024</p>
+        </div>
+      </article> 
+      <!-- HIMA -->
+      <article class="certi-card landscape">
+        <div class="carousel" data-carousel>
+          <img src="assets/images/certificates/HIMA.png" class="active" alt="">
+        </div>
+
+        <div class="certi-body">
+          <h3>HIMATRONIKA-AI UPI KAMPUS PURWAKARTA</h3>
+          <p>As a member of Commission 2 overseeing the Social and Political department of HIMATRONIKA-AI 2024</p>
+        </div>
+      </article>
+      <!-- TRISULA -->
+      <article class="certi-card landscape">
+        <div class="carousel" data-carousel>
+          <img src="assets/images/certificates/TRISULA.png" class="active" alt="">
+        </div>
+
+        <div class="certi-body">
+          <h3>TRISULA SUAKA HIMATRONIKA-AI</h3>
+          <p>As a member of the sponsorship committee</p>
+        </div>    
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact-grid">
+
+      <!-- EMAIL -->
+      <a href="mailto:mraihanrama17@gmail.com" class="contact-card email">
+  <div class="contact-glow"></div>
+
+  <div class="icon-wrapper">
+    <img
+      src="assets/images/gmail.png"
+      alt="Email"
+      class="contact-icon"
+    />
+  </div>
+
+  <div class="contact-content">
+    <h3>Email</h3>
+    <p>mraihanrama17@gmail.com</p>
+  </div>
+
+  <div class="contact-action">
+    <span>Send Email →</span>
+  </div>
+</a>
+
+
+      <!-- LINKEDIN -->
+      <a
+  href="https://linkedin.com/in/mraihanrama17"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="contact-card linkedin"
+>
+  <div class="contact-glow"></div>
+
+  <div class="icon-wrapper">
+    <img
+      src="assets/images/linkedin.png"
+      alt="LinkedIn"
+      class="contact-icon"
+    />
+  </div>
+
+  <div class="contact-content">
+    <h3>LinkedIn</h3>
+    <p>@mraihanrama17</p>
+  </div>
+
+  <div class="contact-action">
+    <span>View Profile →</span>
+  </div>
+</a>
+
+
+      <!-- GITHUB -->
+     <a
+  href="https://github.com/raihanrr17"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="contact-card github"
+>
+  <div class="contact-glow"></div>
+
+  <div class="icon-wrapper">
+    <img
+      src="assets/images/github.png"
+      alt="GitHub"
+      class="contact-icon"
+    />
+  </div>
+
+  <div class="contact-content">
+    <h3>GitHub</h3>
+    <p>@raihanrr17</p>
+  </div>
+
+  <div class="contact-action">
+    <span>View Projects →</span>
+  </div>
+</a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- CV -->
+  <section id="cv" class="section bg-muted">
+  <div class="container">
+    <h2 class="section-title">Curriculum Vitae</h2>
+    <p class="section-desc">
+      A detailed overview of my academic background, technical skills,
+      projects, and experiences.
+    </p>
+    <br>
+    <a href="assets/CV-Muhamad Raihan Ramadhan.pdf" class="btn" target="_blank">
+      Download CV
+    </a>
+  </div>
+</section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Muhamad Raihan Ramadhan</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
